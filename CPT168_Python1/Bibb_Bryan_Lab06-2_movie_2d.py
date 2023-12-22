@@ -1,0 +1,98 @@
+#!/usr/bin/env python3
+# Bryan Bibb, September 29, 2023, CPT167-434
+# Program:      Movie List 2D
+# Purpose:      Begins with a list of movies with years and price data, and
+#               asks for user input to list the movies, to add a new movie,
+#               or to delete a movie from the list.
+
+# list the rows currently in the movie_list
+def list(movie_list):
+    # if the list is empty, return error message
+    if len(movie_list) == 0:
+        print("There are no movies in the list.\n")
+        return
+    # iterate through list and display each row
+    else:
+        for i, movie in enumerate(movie_list, start=1):
+            print(f"{i}. {movie[0]} ({movie[1]}) @ {movie[2]}")
+        print()
+
+# append new movie to movie_list based on user input of name, year, and price
+def add(movie_list):
+    name = input("Name: ")
+    year = input("Year: ")
+    price = input("Price: ")
+    movie = [name, year, price]
+    movie_list.append(movie)
+    print(f"{movie[0]} was added.\n")
+
+# delete a movie from the list based on user choice
+def delete(movie_list):
+    # return error messager if choice is outside list length
+    number = int(input("Number: "))
+    if number < 1 or number > len(movie_list):
+        print("Invalid movie number.\n")
+    # remove the chosen movie from the list with pop function
+    else:
+        movie = movie_list.pop(number-1)
+        print(f"{movie[0]} was deleted.\n")
+
+# find a movie based on its year
+def find(movie_list):
+    # receive user input for the search parameter
+    movie_year = int(input("Year: "))
+    # initialize variables used to complete the search
+    entry_number = len(movie_list)
+    counter = 0         # keep track of which row is current
+    isFound = 0         # keep track of whether a movie has been found
+
+    # iterate through the rows in movie_list
+    for entry in movie_list:
+        counter += 1        # change the current row
+        # if the movie year is found, return the movie and restart the loop
+        if int(entry[1]) == movie_year:
+            print(f"{entry[0]} was released in {entry[1]}\n")
+            isFound = 1     # remember that a movie has been found
+            continue
+        # if the rows are finished and a movie has not been found,
+        # return a message
+        if counter == int(entry_number) and isFound == 0: 
+            print(f"No movie from {movie_year} was found in the list.\n")
+        
+# initial display to inform user of the function choices
+def display_menu():
+    print("COMMAND MENU")
+    print("list - List all movies")
+    print("add -  Add a movie")
+    print("del -  Delete a movie")
+    print("find - Find movies by year")
+    print("exit - Exit program")
+    print()
+    
+def main():
+    # intitalize movie_list variable with default values
+    movie_list = [["Monty Python and the Holy Grail", 1975, 9.95],
+                  ["On the Waterfront", 1954, 5.59],
+                  ["Cat on a Hot Tin Roof", 1958, 7.95]]
+    
+    display_menu()
+
+    # present options to the user and follow input to correct function
+    while True:        
+        command = input("Command: ")
+        if command.lower() == "list":
+            list(movie_list)
+        elif command.lower() == "add":
+            add(movie_list)
+        elif command.lower() == "del":
+            delete(movie_list)
+        elif command.lower() == "find":
+            find(movie_list)
+        elif command.lower() == "exit":
+            break
+        else:
+            print("Not a valid command. Please try again.\n")
+    print("Bye!")
+
+if __name__ == "__main__":
+    main()

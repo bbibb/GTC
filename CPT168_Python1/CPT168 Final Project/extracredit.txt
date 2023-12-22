@@ -1,0 +1,30 @@
+Bryan Bibb
+CPT168-434
+Nov 27, 2023
+
+Final Project Extra Credit Notes
+
+I interpreted this program to be a tool used by the benefit organizer to track the details of their event in process, and to get a financial report at the conclusion of the event.
+
+Additional attendee types:
+    VIP, staff, children, musician
+        VIP, staff, and musicians have no charge for their meals.
+        Children are at 75% discount.
+
+Additional meal types:
+    Fish, Kosher, Vegan, and Child's meals
+        Each meal type has it's own wholesale cost, figured into the final numbers.
+
+More detailed data handling and reports:
+    1. The financial_report() calculates the total cost per type of meal (number of entrees * wholesale cost), adds those values to the venue cost, and subtracts the total amount paid to generate a "final profit" number. If the planner sees that these numbers are not going well, they can raise meal prices or cut costs to adjust.
+
+    2. The find_person() function will return all matches for the person's last name. Then, the planner can use the delete_person() or edit_person() functions by entering the full name of that individual. 
+
+    3. User is given a confirmation warning before deleting or editing an attendee record.
+
+
+Extra features:
+    1. The planner can change the cost of each expense using the update_prices() function, including the base meal cost, child discount, wholesale price for each meal type, and the cost to use the venue.
+
+    2. The planner can generate a randomized list of attendees, organized into 8-person tables. The seating_chart() function calculates how many tables are needed and fills each up in turn.
+
