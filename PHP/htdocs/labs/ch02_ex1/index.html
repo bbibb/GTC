@@ -1,0 +1,44 @@
+<!--
+Lab 02-1 Build the Product Discount Calculator application
+Bryan Bibb, 1/20/2024, CPT283-W01
+Program:    Product Discount Calculator
+Purpose:    Page receives user input for a product description, list price, and discount amount.
+            Then, it calculates and returns the value of the discount and the net price of the product.
+File:       index.html
+Related:    display_discount.php
+
+-->
+<!DOCTYPE html>
+<html>
+<head>
+    <title>Product Discount Calculator</title>
+    <link rel="stylesheet" href="main.css">
+</head>
+
+<body>
+    <main>
+        <!-- create a form with POST method to receive user input -->
+        <h1>Product Discount Calculator</h1>
+        <form action="display_discount.php" method="post">
+            <!-- Three user-input values with text label -->
+            <div id="data">
+                <label>Product Description:</label>
+                <input type="text" name="product_description"><br>
+
+                <label>List Price:</label>
+                <input type="text" name="list_price"><br>
+
+                <label>Discount Percent:</label>
+                <input type="text" name="discount_percent"><span>%</span><br>
+            </div>
+
+            <!-- Button to submit the form -->
+            <div id="buttons">
+                <label>&nbsp;</label>
+                <input type="submit" value="Calculate Discount"><br>
+            </div>
+
+        </form>
+    </main>
+</body>
+</html>

@@ -1,0 +1,1025 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<html xmlns="http://www.w3.org/1999/xhtml">
+  <head>
+    <meta charset="utf-8"/>
+  </head>
+  <body>
+    <ul id="8ZRgL78o">
+      <li id="3C" data-type="heading">
+        <p>Vehicle Maintenance Log</p>
+        <ul>
+          <li id="q75">
+            <p>View Pages</p>
+            <ul>
+              <li id="Enk">
+                <p>header.html</p>
+                <ul>
+                  <li id="mp_">
+                    <p>site name</p>
+                  </li>
+                  <li id="LRD">
+                    <p>navigation</p>
+                    <ul>
+                      <li id="_r1">
+                        <p>home</p>
+                      </li>
+                      <li id="UDA">
+                        <p>action menu</p>
+                      </li>
+                    </ul>
+                  </li>
+                </ul>
+              </li>
+              <li id="GOD">
+                <p>footer.html</p>
+                <ul>
+                  <li id="uyF">
+                    <p>copyright and date</p>
+                  </li>
+                  <li id="4Tr">
+                    <p>link to GitHub project</p>
+                  </li>
+                </ul>
+              </li>
+              <li id="cr">
+                <p>index.html</p>
+                <ul>
+                  <li id="A59">
+                    <p>include header.html - title and site navigation [all pages]</p>
+                  </li>
+                  <li id="9Pb">
+                    <p>project description</p>
+                  </li>
+                  <li id="RF4">
+                    <p>login window</p>
+                    <ul>
+                      <li id="xgg">
+                        <p>form</p>
+                        <ul>
+                          <li id="wpT">
+                            <p>input username</p>
+                          </li>
+                          <li id="K00">
+                            <p>input password</p>
+                          </li>
+                        </ul>
+                      </li>
+                      <li id="N9y">
+                        <p>submit button</p>
+                        <ul>
+                          <li id="VLf">
+                            <p>—&gt; user_auth.php // authenticates user or returns error.html</p>
+                          </li>
+                          <li id="_Q0">
+                            <p>include error.html</p>
+                          </li>
+                        </ul>
+                      </li>
+                      <li id="UiC">
+                        <p>menu</p>
+                        <ul>
+                          <li id="uIJ">
+                            <p>link-&gt; vehicle_log.html</p>
+                          </li>
+                          <li id="Rjm">
+                            <p>link-&gt; fuel_log.html</p>
+                          </li>
+                          <li id="fLB">
+                            <p>link-&gt; maintenance_log.html</p>
+                          </li>
+                          <li id="I4P">
+                            <p>link-&gt; admin_tools.html</p>
+                          </li>
+                        </ul>
+                      </li>
+                    </ul>
+                  </li>
+                  <li id="pM5">
+                    <p>include footer - site information [all pages]</p>
+                  </li>
+                </ul>
+              </li>
+              <li id="U_N">
+                <p>error.html</p>
+                <ul>
+                  <li id="e6d">
+                    <p>authentication error_message</p>
+                    <ul>
+                      <li id="iJh">
+                        <p>load index.html</p>
+                      </li>
+                    </ul>
+                  </li>
+                </ul>
+              </li>
+              <li id="Omp">
+                <p>vehicle_log.html</p>
+                <ul>
+                  <li id="cgx">
+                    <p>vehicle log - all vehicles</p>
+                    <ul>
+                      <li id="nlA">
+                        <p>header</p>
+                        <ul>
+                          <li id="EJp">
+                            <p>title and description</p>
+                          </li>
+                        </ul>
+                      </li>
+                      <li id="r5B">
+                        <p>search box </p>
+                        <ul>
+                          <li id="Cx8">
+                            <p>by make (drop down)</p>
+                            <ul>
+                              <li id="NMM">
+                                <p>submit —&gt; vehicle_list.php // populates table in vehicles.html</p>
+                              </li>
+                            </ul>
+                          </li>
+                          <li id="Ggl">
+                            <p>by model (drop down)</p>
+                            <ul>
+                              <li id="ZBV">
+                                <p>submit —&gt; vehicle_list.php</p>
+                              </li>
+                            </ul>
+                          </li>
+                          <li id="ou6">
+                            <p> include vehicles.html</p>
+                          </li>
+                        </ul>
+                      </li>
+                    </ul>
+                  </li>
+                </ul>
+              </li>
+              <li id="GWe">
+                <p>vehicles.html</p>
+                <ul>
+                  <li id="uo1">
+                    <p>table</p>
+                    <ul>
+                      <li id="32i">
+                        <p>rows - vehicles</p>
+                      </li>
+                      <li id="PHO">
+                        <p>columns - data</p>
+                        <ul>
+                          <li id="KPEW">
+                            <p>VIN link per row -&gt; display_vehicle.html</p>
+                          </li>
+                        </ul>
+                      </li>
+                    </ul>
+                  </li>
+                </ul>
+              </li>
+              <li id="5H">
+                <p>display_vehicle.html - report by vehicle</p>
+                <ul>
+                  <li id="yaL">
+                    <p>section - vehicle information</p>
+                    <ul>
+                      <li id="Mmb">
+                        <p>box</p>
+                        <ul>
+                          <li id="tIA">
+                            <p>—&gt; vehicle_list.php // returns data for information display</p>
+                          </li>
+                          <li id="H8w">
+                            <p>make and model</p>
+                          </li>
+                          <li id="Bi4">
+                            <p>vin</p>
+                          </li>
+                          <li id="fkb">
+                            <p>photo</p>
+                          </li>
+                          <li id="EBx">
+                            <p>edit vehicle button</p>
+                            <ul>
+                              <li id="xZJ">
+                                <p>link-&gt; edit_vehicle.html </p>
+                              </li>
+                            </ul>
+                          </li>
+                        </ul>
+                      </li>
+                      <li id="4PR">
+                        <p>add vehicle</p>
+                        <ul>
+                          <li id="PNr">
+                            <p>form</p>
+                            <ul>
+                              <li id="_8h">
+                                <p>input make</p>
+                              </li>
+                              <li id="u73">
+                                <p>input model</p>
+                              </li>
+                              <li id="l9B">
+                                <p>input VIN</p>
+                              </li>
+                              <li id="43S">
+                                <p>input photo</p>
+                              </li>
+                              <li id="1Kl">
+                                <p>submit box</p>
+                                <ul>
+                                  <li id="tR-">
+                                    <p>—&gt; vehicle_add.php // receives user input and sends to database</p>
+                                  </li>
+                                  <li id="cNp">
+                                    <p>load display_vehicle.html // loads the page for the new vehicle</p>
+                                  </li>
+                                </ul>
+                              </li>
+                            </ul>
+                          </li>
+                        </ul>
+                      </li>
+                    </ul>
+                  </li>
+                  <li id="upp">
+                    <p>section - maintenance data</p>
+                    <ul>
+                      <li id="RkZ">
+                        <p>box</p>
+                        <ul>
+                          <li id="A1y">
+                            <p>—&gt; maintenance_list.php // loads data to display</p>
+                          </li>
+                          <li id="kOj">
+                            <p>table</p>
+                            <ul>
+                              <li id="rYV">
+                                <p>vehicle make and mode</p>
+                              </li>
+                              <li id="WR2">
+                                <p>VIN</p>
+                              </li>
+                              <li id="Re8">
+                                <p>date</p>
+                              </li>
+                              <li id="5x-">
+                                <p>maintenance type</p>
+                              </li>
+                              <li id="rln">
+                                <p>service info</p>
+                              </li>
+                              <li id="2_b">
+                                <p>cost</p>
+                              </li>
+                              <li id="q8v">
+                                <p>edit maintenance button</p>
+                                <ul>
+                                  <li id="2pe">
+                                    <p>link-&gt; maintenance_add.html</p>
+                                  </li>
+                                </ul>
+                              </li>
+                            </ul>
+                          </li>
+                          <li id="F0a">
+                            <p>add maintenance</p>
+                            <ul>
+                              <li id="yax">
+                                <p>form</p>
+                                <ul>
+                                  <li id="5l-">
+                                    <p>VIN (dropdown)</p>
+                                  </li>
+                                  <li id="UPp">
+                                    <p>date</p>
+                                  </li>
+                                  <li id="2Ht">
+                                    <p>maintenance type</p>
+                                  </li>
+                                  <li id="nW0">
+                                    <p>service info</p>
+                                  </li>
+                                  <li id="ILL">
+                                    <p>cost</p>
+                                  </li>
+                                  <li id="AKc">
+                                    <p>submit button</p>
+                                    <ul>
+                                      <li id="MUz">
+                                        <p>—&gt; maintenance_add.php // receives user input and sends to database</p>
+                                      </li>
+                                    </ul>
+                                  </li>
+                                </ul>
+                              </li>
+                            </ul>
+                          </li>
+                        </ul>
+                      </li>
+                    </ul>
+                  </li>
+                  <li id="Akq">
+                    <p>section - fuel data</p>
+                    <ul>
+                      <li id="YwL">
+                        <p>table</p>
+                        <ul>
+                          <li id="eAo">
+                            <p>date</p>
+                          </li>
+                          <li id="JIb">
+                            <p>fuel cost</p>
+                          </li>
+                          <li id="T59">
+                            <p>mileage (calculated from new mileage - prior mileage</p>
+                          </li>
+                          <li id="iD4">
+                            <p>MPG</p>
+                          </li>
+                          <li id="mSN">
+                            <p>edit fuel data button</p>
+                            <ul>
+                              <li id="S5M">
+                                <p>link-&gt; edit_fuel.html</p>
+                              </li>
+                            </ul>
+                          </li>
+                        </ul>
+                      </li>
+                      <li id="5kY">
+                        <p>add fuel data</p>
+                        <ul>
+                          <li id="kRk">
+                            <p>form</p>
+                            <ul>
+                              <li id="WB3Z">
+                                <p>VIN (dropdown)</p>
+                              </li>
+                              <li id="Sg_">
+                                <p>date</p>
+                              </li>
+                              <li id="g59">
+                                <p>fuel cost</p>
+                              </li>
+                              <li id="-DP">
+                                <p>new mileage</p>
+                              </li>
+                              <li id="W3Y">
+                                <p>submit button</p>
+                                <ul>
+                                  <li id="aNB">
+                                    <p>—&gt; add_fuel_data.php // receives user input and adds to database</p>
+                                  </li>
+                                </ul>
+                              </li>
+                            </ul>
+                          </li>
+                        </ul>
+                      </li>
+                    </ul>
+                  </li>
+                </ul>
+              </li>
+              <li id="VEo">
+                <p>edit_vehicle.html</p>
+                <ul>
+                  <li id="9XIV">
+                    <p>—&gt; vehicle_list.php // populates default values of form (current values)</p>
+                  </li>
+                  <li id="T_n">
+                    <p>form</p>
+                    <ul>
+                      <li id="7NH">
+                        <p>input make</p>
+                      </li>
+                      <li id="17L">
+                        <p>input model</p>
+                      </li>
+                      <li id="vEt">
+                        <p>input vin</p>
+                      </li>
+                      <li id="xhf">
+                        <p>input photo</p>
+                      </li>
+                    </ul>
+                  </li>
+                  <li id="k1B">
+                    <p>submit button —&gt; vehicle_add.php // updates database record with new information</p>
+                  </li>
+                  <li id="QwT">
+                    <p>return to calling page</p>
+                  </li>
+                </ul>
+              </li>
+              <li id="4LD">
+                <p>edit_maintenance.html</p>
+                <ul>
+                  <li id="RMa">
+                    <p>—&gt; maintenance_list.php  // populates default values of form</p>
+                  </li>
+                  <li id="eJy">
+                    <p>form</p>
+                    <ul>
+                      <li id="BwZ">
+                        <p>input vin</p>
+                      </li>
+                      <li id="Lee">
+                        <p>input maintenance type</p>
+                      </li>
+                      <li id="4al">
+                        <p>input service info</p>
+                      </li>
+                      <li id="2Wz">
+                        <p>input cost</p>
+                      </li>
+                    </ul>
+                  </li>
+                  <li id="lwO">
+                    <p>submit button —&gt; maintenance_add.php // updates record with new info</p>
+                  </li>
+                  <li id="nYl">
+                    <p>return to calling page</p>
+                  </li>
+                </ul>
+              </li>
+              <li id="x3v">
+                <p>edit_fuel.html</p>
+                <ul>
+                  <li id="i8z">
+                    <p>—&gt; fuel_list.php  // populates default values of form</p>
+                  </li>
+                  <li id="Zra">
+                    <p>form</p>
+                    <ul>
+                      <li id="cXe">
+                        <p>input vin</p>
+                      </li>
+                      <li id="2DF">
+                        <p>input maintenance type</p>
+                      </li>
+                      <li id="b9m">
+                        <p>input service info</p>
+                      </li>
+                      <li id="7aM">
+                        <p>input cost</p>
+                      </li>
+                    </ul>
+                  </li>
+                  <li id="_D6">
+                    <p>submit button —&gt; fuel_add.php // updates record with new info</p>
+                  </li>
+                  <li id="6SF">
+                    <p>return to calling page</p>
+                  </li>
+                </ul>
+              </li>
+              <li id="E0">
+                <p>fuel_log.html</p>
+                <ul>
+                  <li id="tE">
+                    <p>fuel report - by vehicle</p>
+                    <ul>
+                      <li id="AgAN">
+                        <p>column link-&gt; edit_fuel.html // edits that record</p>
+                      </li>
+                    </ul>
+                  </li>
+                  <li id="Bwt">
+                    <p>fuel report - by type</p>
+                    <ul>
+                      <li id="QoMO">
+                        <p>column link -&gt; edit_fuel.html</p>
+                      </li>
+                    </ul>
+                  </li>
+                  <li id="xbMp">
+                    <p>add fuel data</p>
+                    <ul>
+                      <li id="MsGX">
+                        <p>form</p>
+                        <ul>
+                          <li id="F9Yr">
+                            <p>VIN (dropdown)</p>
+                          </li>
+                          <li id="3fyD">
+                            <p>date</p>
+                          </li>
+                          <li id="fnIM">
+                            <p>fuel cost</p>
+                          </li>
+                          <li id="Q5ht">
+                            <p>new mileage</p>
+                          </li>
+                          <li id="aoDT">
+                            <p>submit button —&gt; fuel_add.php // adds new record to the database</p>
+                          </li>
+                        </ul>
+                      </li>
+                    </ul>
+                  </li>
+                </ul>
+              </li>
+              <li id="A3">
+                <p>maintenance_log.html</p>
+                <ul>
+                  <li id="DM">
+                    <p>maintenance log</p>
+                    <ul>
+                      <li id="AhHa">
+                        <p>maintenance report - all vehicles</p>
+                        <ul>
+                          <li id="sYbh">
+                            <p>column to edit row link-&gt; edit_maintenance.html</p>
+                          </li>
+                        </ul>
+                      </li>
+                      <li id="-3">
+                        <p>maintenance report - by vehicle</p>
+                        <ul>
+                          <li id="KrVx">
+                            <p>column to edit row link-&gt; edit_maintenance.html</p>
+                          </li>
+                        </ul>
+                      </li>
+                      <li id="ZW">
+                        <p>maintenance report - by type</p>
+                        <ul>
+                          <li id="3lps">
+                            <p>column to edit row link-&gt; edit_maintenance.html</p>
+                          </li>
+                        </ul>
+                      </li>
+                    </ul>
+                  </li>
+                  <li id="EJ3">
+                    <p>add maintenance data</p>
+                    <ul>
+                      <li id="R_mz">
+                        <p>form</p>
+                        <ul>
+                          <li id="Jaot">
+                            <p>VIN (dropdown)</p>
+                          </li>
+                          <li id="_7EB">
+                            <p>date</p>
+                          </li>
+                          <li id="Gx1q">
+                            <p>maintenance type</p>
+                          </li>
+                          <li id="vzN4">
+                            <p>service info</p>
+                          </li>
+                          <li id="jhB7">
+                            <p>cost</p>
+                          </li>
+                          <li id="D-E4">
+                            <p>submit button —&gt; maintenance_add.php // adds new record to database</p>
+                          </li>
+                        </ul>
+                      </li>
+                    </ul>
+                  </li>
+                  <li id="YGYK">
+                    <p>maintenance types</p>
+                    <ul>
+                      <li id="bMCi">
+                        <p>include maintenance_types.html</p>
+                      </li>
+                      <li id="G_V5">
+                        <p>add maintenance_type</p>
+                        <ul>
+                          <li id="wmob">
+                            <p>form</p>
+                            <ul>
+                              <li id="mlZh">
+                                <p>Type</p>
+                              </li>
+                              <li id="rt6L">
+                                <p>submit button —&gt; add maintenance_type.php</p>
+                              </li>
+                            </ul>
+                          </li>
+                        </ul>
+                      </li>
+                    </ul>
+                  </li>
+                </ul>
+              </li>
+              <li id="fnf6">
+                <p>maintenance_types.html</p>
+                <ul>
+                  <li id="JjbO">
+                    <p>table - row for each type</p>
+                  </li>
+                  <li id="1_ut">
+                    <p>columns - name and link to edit —&gt; maintenance_type.php // updates the database</p>
+                  </li>
+                </ul>
+              </li>
+              <li id="Uc">
+                <p>admin_tools.html</p>
+                <ul>
+                  <li id="qDc">
+                    <p>users</p>
+                    <ul>
+                      <li id="06X5">
+                        <p>search username</p>
+                        <ul>
+                          <li id="9iwD">
+                            <p>—&gt; user_list.php</p>
+                          </li>
+                          <li id="PDtR">
+                            <p>table</p>
+                            <ul>
+                              <li id="xFpd">
+                                <p>username</p>
+                              </li>
+                              <li id="HiIN">
+                                <p>role</p>
+                              </li>
+                              <li id="LyXJ">
+                                <p>edit user</p>
+                                <ul>
+                                  <li id="5dga">
+                                    <p>link-&gt; edit_user.html</p>
+                                  </li>
+                                </ul>
+                              </li>
+                            </ul>
+                          </li>
+                        </ul>
+                      </li>
+                      <li id="K8Zu">
+                        <p>view all users</p>
+                        <ul>
+                          <li id="MF0o">
+                            <p>—&gt; user_list.php</p>
+                          </li>
+                          <li id="4RF3">
+                            <p>table</p>
+                            <ul>
+                              <li id="MLci">
+                                <p>username</p>
+                              </li>
+                              <li id="YHj6">
+                                <p>role</p>
+                              </li>
+                              <li id="7aSo">
+                                <p>edit user</p>
+                                <ul>
+                                  <li id="O7g7">
+                                    <p>link-&gt; edit_user.html</p>
+                                  </li>
+                                </ul>
+                              </li>
+                            </ul>
+                          </li>
+                        </ul>
+                      </li>
+                    </ul>
+                  </li>
+                  <li id="N9u">
+                    <p>edit Vehicles</p>
+                    <ul>
+                      <li id="paCL">
+                        <p>—&gt; vehicle_list.php</p>
+                      </li>
+                      <li id="MCJ9">
+                        <p>table</p>
+                        <ul>
+                          <li id="eFbF">
+                            <p>VIN</p>
+                          </li>
+                          <li id="FuGM">
+                            <p>make</p>
+                          </li>
+                          <li id="3plq">
+                            <p>model</p>
+                          </li>
+                          <li id="BEAF">
+                            <p>edit button</p>
+                            <ul>
+                              <li id="trR1">
+                                <p>link_&gt; edit_vehicle.html</p>
+                              </li>
+                            </ul>
+                          </li>
+                        </ul>
+                      </li>
+                    </ul>
+                  </li>
+                  <li id="jjP">
+                    <p>edit maintenance log</p>
+                    <ul>
+                      <li id="G6zv">
+                        <p>link-&gt; display_maintenance.html</p>
+                      </li>
+                    </ul>
+                  </li>
+                  <li id="Iz_">
+                    <p>delete record</p>
+                    <ul>
+                      <li id="NV3j">
+                        <p>link-&gt; delete_record.html</p>
+                      </li>
+                    </ul>
+                  </li>
+                  <li id="4tS">
+                    <p>delete all data / reset</p>
+                    <ul>
+                      <li id="hBe3">
+                        <p>form</p>
+                        <ul>
+                          <li id="719q">
+                            <p>label - delete all data and reset database</p>
+                          </li>
+                          <li id="RE9f">
+                            <p>submit button</p>
+                            <ul>
+                              <li id="zRGQ">
+                                <p>include confirm.html</p>
+                                <ul>
+                                  <li id="-77R">
+                                    <p>form</p>
+                                    <ul>
+                                      <li id="cpF7">
+                                        <p>admin password</p>
+                                      </li>
+                                      <li id="Cu9h">
+                                        <p>confirmation check box</p>
+                                      </li>
+                                      <li id="GLyy">
+                                        <p>submit</p>
+                                        <ul>
+                                          <li id="bzIi">
+                                            <p>—&gt; database_reset.php</p>
+                                          </li>
+                                          <li id="pi_6">
+                                            <p>load admin_tools.html</p>
+                                          </li>
+                                        </ul>
+                                      </li>
+                                    </ul>
+                                  </li>
+                                </ul>
+                              </li>
+                            </ul>
+                          </li>
+                        </ul>
+                      </li>
+                    </ul>
+                  </li>
+                  <li id="9iC">
+                    <p>View All Data - Export</p>
+                  </li>
+                </ul>
+              </li>
+              <li id="YoEg">
+                <p>edit_user.html</p>
+                <ul>
+                  <li id="RZca">
+                    <p>—&gt; user_list.php // populates default data</p>
+                  </li>
+                  <li id="TXuS">
+                    <p>form</p>
+                    <ul>
+                      <li id="e_5G">
+                        <p>username</p>
+                      </li>
+                      <li id="8rAU">
+                        <p>password</p>
+                      </li>
+                      <li id="3V9G">
+                        <p>role</p>
+                      </li>
+                      <li id="9qJX">
+                        <p>submit button —&gt; user_add.php // receives user input and updates database record</p>
+                      </li>
+                    </ul>
+                  </li>
+                </ul>
+              </li>
+            </ul>
+          </li>
+          <li id="JcL">
+            <p>Control Pages</p>
+            <ul>
+              <li id="9mrS">
+                <p>vehicle_list.php</p>
+                <ul>
+                  <li id="L6N2">
+                    <p>—&gt; vehicle_db.php // functions to get vehicle data</p>
+                  </li>
+                </ul>
+              </li>
+              <li id="rvCx">
+                <p>vehicle_add.php</p>
+                <ul>
+                  <li id="BUcM">
+                    <p>—&gt; vehicle_db.php // functions to edit, add, and delete vehicle data</p>
+                  </li>
+                </ul>
+              </li>
+              <li id="C9LA">
+                <p>maintenance_list.php</p>
+                <ul>
+                  <li id="Ynr9">
+                    <p>—&gt; maintenance_db.php // functions to get maintenance data</p>
+                  </li>
+                </ul>
+              </li>
+              <li id="Pbba">
+                <p>maintenance_add.php</p>
+                <ul>
+                  <li id="U_lR">
+                    <p>—&gt; maintenance_db.php // functions to edit, add, and delete maintenance data</p>
+                  </li>
+                </ul>
+              </li>
+              <li id="sGHH">
+                <p>maintenance_type.php</p>
+                <ul>
+                  <li id="bL7i">
+                    <p>—&gt; maintenance_type_db.php // functions to list, edit, add, and delete maintenance data</p>
+                  </li>
+                </ul>
+              </li>
+              <li id="p2vf">
+                <p>fuel_list.php</p>
+                <ul>
+                  <li id="X5-R">
+                    <p>—&gt; fuel_db.php // functions to get fuel data</p>
+                  </li>
+                </ul>
+              </li>
+              <li id="QZvF">
+                <p>fuel_add.php</p>
+                <ul>
+                  <li id="50t9">
+                    <p>—&gt; fuel_db.php // functions to edit, add, and delete fuel data</p>
+                  </li>
+                </ul>
+              </li>
+              <li id="cCT2">
+                <p>user_list.php</p>
+                <ul>
+                  <li id="hLWC">
+                    <p>—&gt; display_user.php</p>
+                  </li>
+                </ul>
+              </li>
+              <li id="OM9G">
+                <p>user_add.php</p>
+                <ul>
+                  <li id="z65b">
+                    <p>—&gt; edit_user</p>
+                  </li>
+                </ul>
+              </li>
+              <li id="iAN">
+                <p>display_data.php</p>
+                <ul>
+                  <li id="lykO">
+                    <p>—&gt; database.php // return table of all data</p>
+                  </li>
+                </ul>
+              </li>
+              <li id="Obye">
+                <p>database_reset.php</p>
+                <ul>
+                  <li id="ufkv">
+                    <p>—&gt; database.php // remove table data but leave tables in place</p>
+                  </li>
+                </ul>
+              </li>
+            </ul>
+          </li>
+          <li id="4DA">
+            <p>Model Pages</p>
+            <ul>
+              <li id="fdY">
+                <p>database.php</p>
+                <ul>
+                  <li id="1X5H">
+                    <p>Connection</p>
+                  </li>
+                  <li id="_vzk">
+                    <p>Error message</p>
+                  </li>
+                </ul>
+              </li>
+              <li id="M43">
+                <p>user_auth.php</p>
+                <ul>
+                  <li id="oXKV">
+                    <p>save encrypted passwords</p>
+                  </li>
+                  <li id="HwyS">
+                    <p>authenticate users and set session cookie</p>
+                  </li>
+                  <li id="_A0-">
+                    <p>permissions to load certain pages?</p>
+                  </li>
+                  <li id="GlH6">
+                    <p>(data permissions set in database for authenticated users)</p>
+                  </li>
+                </ul>
+              </li>
+              <li id="WFSX">
+                <p>vehicle_db.php</p>
+                <ul>
+                  <li id="lXjL">
+                    <p>get_vehicle</p>
+                  </li>
+                  <li id="OW8m">
+                    <p>add_vehicle</p>
+                  </li>
+                  <li id="bMMb">
+                    <p>edit_vehicle</p>
+                  </li>
+                  <li id="DaPy">
+                    <p>delete_vehicle</p>
+                  </li>
+                </ul>
+              </li>
+              <li id="Cn4e">
+                <p>maintenance_db.php</p>
+                <ul>
+                  <li id="QVxE">
+                    <p>get_maintenance</p>
+                  </li>
+                  <li id="y7JH">
+                    <p>add_maintenance</p>
+                  </li>
+                  <li id="57q-">
+                    <p>edit_vehicle</p>
+                  </li>
+                  <li id="KCgB">
+                    <p>delete_maintenance</p>
+                  </li>
+                </ul>
+              </li>
+              <li id="8m_l">
+                <p>maintenance_type_db.php</p>
+                <ul>
+                  <li id="H4AD">
+                    <p>get_maintenance_type</p>
+                  </li>
+                  <li id="qpJg">
+                    <p>add_maintenance_type</p>
+                  </li>
+                  <li id="p5NV">
+                    <p>edit_maintenance_type</p>
+                  </li>
+                  <li id="fLJu">
+                    <p>delete_maintenance_type</p>
+                  </li>
+                </ul>
+              </li>
+              <li id="YN5P">
+                <p>users_db.php</p>
+                <ul>
+                  <li id="mTdM">
+                    <p>get_user</p>
+                  </li>
+                  <li id="3hL2">
+                    <p>add_user</p>
+                  </li>
+                  <li id="TYSU">
+                    <p>edit_user</p>
+                  </li>
+                  <li id="E-Kc">
+                    <p>delete_user</p>
+                  </li>
+                </ul>
+              </li>
+              <li id="HdVA">
+                <p>fuel_db.php</p>
+                <ul>
+                  <li id="bSre">
+                    <p>get_fuel</p>
+                  </li>
+                  <li id="Fofw">
+                    <p>add_fuel</p>
+                  </li>
+                  <li id="Pjg3">
+                    <p>edit_fuel</p>
+                  </li>
+                  <li id="Ucsu">
+                    <p>delete_fuel</p>
+                  </li>
+                </ul>
+              </li>
+            </ul>
+          </li>
+          <li id="rRCV">
+            <p/>
+          </li>
+        </ul>
+      </li>
+      <li id="orOu">
+        <p/>
+      </li>
+    </ul>
+  </body>
+</html>
