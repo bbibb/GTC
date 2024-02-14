@@ -159,3 +159,118 @@ don't forget to prefix self parameter to attribute names
 	(if you don't you've just created a local variable with that name)
 
 
+
+
+## Review
+
+Which will print the value of the \_\_value attribute to the console?
+	print(die.getValue())
+
+what is another way to code getArea() method?
+	return self.height * self.width
+
+create a read_only property
+	coding only a getter method with the @property decorator
+
+**Which of the following is the constructor for this class?**
+	**def \_\_init\_\_(self, height:int, width:int):**
+		**self.height = height**
+		**self.width = width**
+
+**which of the following sets the \_\_value attribute**
+	**die.roll()**
+
+what are the attributes of the class?
+	num1, num2
+
+to prevent a programmer from directly accessing attributes
+	encapsulation
+
+you can't access a private attribute
+	by using the dot operator followed by the attribute's name
+
+which defines a constructor that initializes one attribute?
+	def init(self, name):
+			self.name = name
+
+to code a property with private attribute, which decorator?
+	@property
+
+when you define a class, Python generates
+	an init() method if you don't code one
+
+if you want to execute code after an object is initialized use
+	post_init method
+
+given variable p which refers to Product object, which accesses the price attribute?
+	p.price
+
+in a method the first parameter, self, refers to the current
+	object
+
+how many public attributes does this class define
+	2 - height and width
+
+when this code is executed, what does it print to the screen
+	7 x 3 = 21
+
+
+Which of the following defines the tasks an object can perform?
+	methods of a class
+
+
+the methods contained in an object that has been created from a class is it
+	behavior
+
+
+The Unified Modeling Language
+	describes the classes and objects of an application
+
+When an object of one class stores one or more objects of another class this is
+	composition
+
+UML class diagram
+	describes the attributes and methods of one or more classes
+
+dot operator after an object
+	public attributes and methods of the object
+
+code an init() method if you need to
+	set the default value to a mutable type
+
+
+how many public methods does this class define
+	3
+
+cust variable, which calls the getFullName() method
+	cust.getFullName()
+
+class Customer - which creates a Customer object and assigns it to variable cust1
+	cust1 = Customer()
+
+***code a property that sets a private attribute, which of the following decorators?***
+	**\@propertyName.setter**
+	
+
+module shapes, Rectangle class - import and create object
+	from shapes import Rectangle
+	rectangle = Rectangle(10,20)
+
+
+Once you create an object from a class, the object's ----  can change
+	state
+
+which defines the type of data an object can store
+	attributes of a class
+
+what are the methods of the class
+	getProduct()
+
+which defines a data class Product with one attribute
+	@dataclass
+	class Product:
+	name:str = ""
+
+
+
+
