@@ -3,7 +3,7 @@
 //Program:  Guitar Shop
 //Purpose:  A database of inventory for My Guitar Shop. Includes ability to view, edit, add, and delete
 //          inventory items and product categories.
-//File:     product_manager/index.php
+//File:     product_manager/indexold.php
 //
 //This master page for the product manager application starts by importing the code for the three
 //"model" php pages. These define all of the variables and interface with the database, and then

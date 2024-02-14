@@ -7,7 +7,7 @@ Purpose:    This application integrates with the MySQL database to store and ret
             the new product from add_product_form.php, inserts that data it into the MySQL database,
             and redisplays the list on the index page.
 File:       add_product.php
-Related:    index.php, database.php, error.php, add_product_form.php
+Related:    indexold.php, database.php, error.php, add_product_form.php
 -->
 
 <?php
@@ -41,7 +41,7 @@ if ($category_id == NULL || $category_id == FALSE || $code == NULL ||
     $statement->execute();
     $statement->closeCursor();
 
-    // Display the Product List (index.html), now with the new row of product data
+    // Display the Product List (index.php), now with the new row of product data
     include('index.php');
 }
 ?>

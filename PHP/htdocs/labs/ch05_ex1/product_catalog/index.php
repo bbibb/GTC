@@ -3,7 +3,7 @@
 // Program:  Guitar Shop
 // Purpose:  A database of inventory for My Guitar Shop. Includes ability to view, edit, add, and delete
 //           inventory items and product categories.
-// File:     product_catalog/index.php
+// File:     product_catalog/indexold.php
 //
 // the PHP require statement includes the code from these three pages into this one. Because it is 'require'
 // and not include, execution will stop in the case of an error, not simply pass a message.
