@@ -9,42 +9,18 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="64d6af24-587a-4175-9550-695e6880dff7" name="Changes" comment="PHP Final Project v1 with vehicle database: add and edit forms.">
-      <change afterPath="$PROJECT_DIR$/../../CPT187_Python2/.idea/dataSources.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../../CPT187_Python2/.idea/sqldialects.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../../CPT187_Python2/.idea/sshConfigs.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/favmovies2/admin/config/config.php" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/vehicle_log/add_vehicle_db.php" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/vehicle_log/assets/favicon.ico" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/vehicle_log/assets/fuel-pump.svg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/vehicle_log/css/styles.css" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/vehicle_log/database_error.php" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/vehicle_log/deliverables/Bibb_Bryan_projectlab3.php" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/vehicle_log/deliverables/Bibb_Bryan_projectlab3_add_vehicle.php" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/vehicle_log/deliverables/Bibb_Bryan_projectlab3_index.php" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/vehicle_log/deliverables/projectlab2.php" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/vehicle_log/deliverables/sql_dump.html" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/vehicle_log/edit_vehicle.php" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/vehicle_log/edit_vehicle_db.php" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/vehicle_log/error.php" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/vehicle_log/header.php" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/vehicle_log/index.php" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/vehicle_log/js/scripts.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/vehicle_log/projectlab2.php" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/vehicle_log/projectlab3.php" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../../CPT187_Python2/Bibb_Bryan_Lab14-1_dice_roller.py" beforeDir="false" afterPath="$PROJECT_DIR$/../../CPT187_Python2/Bibb_Bryan_Lab14-1_dice_roller.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../../CPT187_Python2/Classes.md" beforeDir="false" afterPath="$PROJECT_DIR$/../../CPT187_Python2/Classes.md" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../../CPT187_Python2/dice.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../CPT187_Python2/Bibb_Bryan_Lab18-1_future_value_gui/business.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../CPT187_Python2/Bibb_Bryan_Lab18-1_future_value_gui/ui.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../CPT187_Python2/Bibb_Bryan_Lab18-2_mpg/mpg_gui.py" beforeDir="false" />
       <change beforePath="$PROJECT_DIR$/../../MSSQL/Scripts.md" beforeDir="false" afterPath="$PROJECT_DIR$/../../MSSQL/Scripts.md" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/../../MSSQL/Views.md" beforeDir="false" afterPath="$PROJECT_DIR$/../../MSSQL/Views.md" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/deployment.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/deployment.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../Networking/257 Chapter 1.md" beforeDir="false" afterPath="$PROJECT_DIR$/../../Networking/257 Chapter 1.md" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/index.php" beforeDir="false" afterPath="$PROJECT_DIR$/index.php" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/labs/ch02_ex1/index.html" beforeDir="false" afterPath="$PROJECT_DIR$/labs/ch02_ex1/index.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/labs/ch04_ex1/add_product.php" beforeDir="false" afterPath="$PROJECT_DIR$/labs/ch04_ex1/add_product.php" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/labs/ch05_ex1/product_catalog/index.php" beforeDir="false" afterPath="$PROJECT_DIR$/labs/ch05_ex1/product_catalog/index.php" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/labs/ch05_ex1/product_manager/index.php" beforeDir="false" afterPath="$PROJECT_DIR$/labs/ch05_ex1/product_manager/index.php" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/vehicle_log/cpt283bibb_vehicle_log.sql" beforeDir="false" afterPath="$PROJECT_DIR$/vehicle_log/deliverables/cpt283bibb_vehicle_log.sql" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/vehicle_log/outline.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/labs/ch08_ex1/index.php" beforeDir="false" afterPath="$PROJECT_DIR$/labs/ch08_ex1/index.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/labs/ch08_ex1/invoice_total.php" beforeDir="false" afterPath="$PROJECT_DIR$/labs/ch08_ex1/invoice_total.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/labs/ch08_ex2/index.php" beforeDir="false" afterPath="$PROJECT_DIR$/labs/ch08_ex2/index.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/labs/ch08_ex2/loop_tester.php" beforeDir="false" afterPath="$PROJECT_DIR$/labs/ch08_ex2/loop_tester.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/vehicle_log/edit_vehicle.php" beforeDir="false" afterPath="$PROJECT_DIR$/vehicle_log/edit_vehicle.php" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -59,6 +35,11 @@
       <list>
         <option value="bbibb &lt;bryan.bibb@furman.edu&gt;" />
       </list>
+    </option>
+    <option name="RECENT_BRANCH_BY_REPOSITORY">
+      <map>
+        <entry key="$PROJECT_DIR$/../.." value="main" />
+      </map>
     </option>
     <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$/../.." />
   </component>
@@ -82,6 +63,7 @@
     &quot;JavaScript Debug.index.php (1).executor&quot;: &quot;Run&quot;,
     &quot;JavaScript Debug.index.php.executor&quot;: &quot;Run&quot;,
     &quot;JavaScript Debug.projectlab2.php.executor&quot;: &quot;Run&quot;,
+    &quot;PHP Script.index.php (1).executor&quot;: &quot;Debug&quot;,
     &quot;PHP Script.index.php.executor&quot;: &quot;Run&quot;,
     &quot;RunOnceActivity.OpenProjectViewOnStart&quot;: &quot;true&quot;,
     &quot;RunOnceActivity.ShowReadmeOnStart&quot;: &quot;true&quot;,
@@ -90,7 +72,7 @@
     &quot;WebServerToolWindowPanel.toolwindow.show.date&quot;: &quot;false&quot;,
     &quot;WebServerToolWindowPanel.toolwindow.show.permissions&quot;: &quot;false&quot;,
     &quot;WebServerToolWindowPanel.toolwindow.show.size&quot;: &quot;false&quot;,
-    &quot;last_opened_file_path&quot;: &quot;/Users/bbibb/repos/GTC/PHP/htdocs/vehicle_log/deliverables&quot;,
+    &quot;last_opened_file_path&quot;: &quot;/Users/bbibb/repos/GTC/PHP/htdocs/vehicle_log2&quot;,
     &quot;node.js.detected.package.eslint&quot;: &quot;true&quot;,
     &quot;node.js.detected.package.tslint&quot;: &quot;true&quot;,
     &quot;node.js.selected.package.eslint&quot;: &quot;(autodetect)&quot;,
@@ -112,15 +94,17 @@
 }</component>
   <component name="RecentsManager">
     <key name="CopyFile.RECENT_KEYS">
+      <recent name="$PROJECT_DIR$/vehicle_log2" />
+      <recent name="$PROJECT_DIR$/vehicle_log2/includes" />
       <recent name="$PROJECT_DIR$/vehicle_log/deliverables" />
+      <recent name="$PROJECT_DIR$/labs/deliverables" />
       <recent name="$PROJECT_DIR$/vehicle_log" />
-      <recent name="$PROJECT_DIR$/vehicle_log/assets" />
     </key>
     <key name="MoveFile.RECENT_KEYS">
       <recent name="$PROJECT_DIR$" />
     </key>
   </component>
-  <component name="RunManager" selected="JavaScript Debug.index.php (1)">
+  <component name="RunManager" selected="PHP Script.index.php (1)">
     <configuration name="index.php (1)" type="JavascriptDebugType" temporary="true" nameIsGenerated="true" uri="https://cpt283-bibb.beausanders.net/labs/ch07_ex1/index.php">
       <method v="2" />
     </configuration>
@@ -130,7 +114,7 @@
     <configuration name="projectlab2.php" type="JavascriptDebugType" temporary="true" nameIsGenerated="true" uri="https://cpt283-bibb.beausanders.net/vehicle_log/projectlab2.php">
       <method v="2" />
     </configuration>
-    <configuration name="index_old.php" type="PhpLocalRunConfigurationType" factoryName="PHP Console" temporary="true" path="$PROJECT_DIR$/index_old.php">
+    <configuration name="index.php (1)" type="PhpLocalRunConfigurationType" factoryName="PHP Console" temporary="true" path="$PROJECT_DIR$/vehicle_log2/index.php">
       <method v="2" />
     </configuration>
     <configuration name="index.php" type="PhpLocalRunConfigurationType" factoryName="PHP Console" temporary="true" path="$PROJECT_DIR$/labs/ch05_ex1/index.php">
@@ -138,11 +122,11 @@
     </configuration>
     <recent_temporary>
       <list>
+        <item itemvalue="PHP Script.index.php (1)" />
         <item itemvalue="JavaScript Debug.index.php (1)" />
         <item itemvalue="JavaScript Debug.projectlab2.php" />
         <item itemvalue="JavaScript Debug.index.php" />
         <item itemvalue="PHP Script.index.php" />
-        <item itemvalue="PHP Script.index_old.php" />
       </list>
     </recent_temporary>
   </component>
@@ -173,7 +157,12 @@
       <workItem from="1707842311272" duration="13765000" />
       <workItem from="1707860155512" duration="3428000" />
       <workItem from="1707873445140" duration="14000" />
-      <workItem from="1707873656301" duration="5868000" />
+      <workItem from="1707873656301" duration="16376000" />
+      <workItem from="1708108486428" duration="180000" />
+      <workItem from="1708126642438" duration="1374000" />
+      <workItem from="1708134918233" duration="11480000" />
+      <workItem from="1708201098713" duration="3619000" />
+      <workItem from="1708310446400" duration="1319000" />
     </task>
     <servers />
   </component>

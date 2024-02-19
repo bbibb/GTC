@@ -125,7 +125,7 @@ Windows Admin Center
 	updates, resource info, certificates, storage, software, registry edits, VMs, clusters, Azure integration
 	access to Powershell and RDP connections
 
-**Small Footpring Installation Options**
+**Small Footprint Installation Options**
 smaller attack surface
 fewer resources
 can be in a VM, good for cloud
@@ -273,7 +273,7 @@ activation
 Use Hyper-V on Win10, Server 2019 VM
 
 
-## Review #s
+## Review 
 
 On-premises vs cloud servers
 
@@ -304,13 +304,14 @@ management tool that is not installed by default
 	Windows Admin Center
 
 Powershell commands are cmdlets
+	TRUE
 
 Two small-footprint options
 	Server Core
 	Nano Server
 
-Windows Server Configuration Wizard in Server Core
-	run sfconfig.cmd
+
+Start Windows Server Configuration Wizard: sconfig.cmd
 	TRUE
 
 Edition that supports Containers, and 2 Hyper-V machines

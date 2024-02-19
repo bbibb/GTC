@@ -9,14 +9,14 @@ Use a view - refer to it from another statement
 
 stored as an object, can be used by anyone
 
-CREATE VIEWS VendorsMin AS
-	SELECT VendorName, VendorState, VendorPHone
+CREATE VIEW VendorsMin AS
+	SELECT VendorName, VendorState, VendorPhone
 	FROM Vendors;
 
 query that uses that view:
-SELECT * FROM VendorsMin
-WHERE VendorState = 'CA'
-ORDER BY VendorName;
+	SELECT * FROM VendorsMin
+	WHERE VendorState = 'CA'
+	ORDER BY VendorName;
 
 benefits:
 	design independence
@@ -47,7 +47,7 @@ WITH CHECK OPTION
 WITH ENCRYPTION
 	keeps users from seeing the SQL code that creates the view
 
-Updatable View
+**Updatable View**
 modify underlying table with INSERT UPDATE and DELETE
 	inflexible and prone to errors - avoid
 
@@ -89,7 +89,7 @@ Catalog Views
 system catalog lists all objects in a database
 
 SQL server supplies catalog views
-	independent of the system tablesj
+	independent of the system tables
 	use SELECT
 	JOIN to make a view with info from more than one system table
 

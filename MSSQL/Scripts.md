@@ -111,7 +111,7 @@ name up to 116 characters (standard: 128)
 	
 differences in scope
 	standard tables and views have broadest scope
-	derived exists on in the statement in which it is defined
+	derived exists only in the statement in which it is defined
 	temp and table variables are in between
 
 differences in storage
@@ -143,7 +143,7 @@ If you need to use more than 1 SQL statement, use BEGIN...END block
 		PRINT 'No overdue invoices.';
 
 **test for existence of database object**
-ad IF EXISTS to DROP statement
+add IF EXISTS to DROP statement
 
 also could use OBJECT_ID function or DB_ID
 	if they don't, returns null, if so, returns index number
